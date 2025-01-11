@@ -1,4 +1,5 @@
 # Neovim
+Fork fof the https://github.com/nvim-lua/kickstart.nvim project, for personal use
 
 ### Install Neovim
 
@@ -31,7 +32,10 @@ Neovim's configurations are located under the following paths, depending on your
 | :- | :--- |
 | Linux, MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
 
-
+run the following command to install kickstart
+```sh
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
 
 ### Post Installation
 
@@ -40,9 +44,7 @@ Start Neovim
 ```sh
 nvim
 ```
-
-That's it! Lazy will install all the plugins you have. Use `:Lazy` to view
-the current plugin status. Hit `q` to close the window.
+Run  `:Lazy` to view the current plugin status. Hit `q` to close the window.
 
 ### Install Recipes
 
